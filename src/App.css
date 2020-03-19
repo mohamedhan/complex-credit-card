@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  display: flex;
+}
+.card{
+  background-image: url(./background.jpg);
+  margin: 100px;
+  height: 320px;
+  width: 535px;
+    padding: 40px 25px 25px 30px;
+  border-radius: 20px
+}
+.card-title{
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content:flex-end;
+  font-weight: bold;
+  font-size: 40px;
+}
+.card img{
+  display: flex;
+  justify-content:flex-end;
+}
+.chip-image{
+  width: 100px;
+  height: 73px;
+}
+.card-critere{
+  display: flex;
+  justify-content: space-between;
+}
+.card-critere-left{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+}
+.sect-valid{
+  display: flex;
+  justify-content: space-between;
+}
+.valid-card{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 0px;
+
+}
+.card-number{
+  color: rgb(245, 241, 16);
+  font-size: 30px;
+align-self: flex-start;
+background-color: rgb(28, 214, 106);
+opacity: 0.3;
+margin: 20px 0px;
+letter-spacing: 6px;
+
+}
+.number{
+  color: antiquewhite;
+  font-size: 30px;
+align-self: flex-start;
+font-weight: bold;
+
+}
+.valid-thru{
+  color: antiquewhite;
+  font-size: 10px;
+  margin: 0px 10px;
+}
+.date-exp{
+  color: antiquewhite;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.card-holder{
+  color: antiquewhite;
+  font-size: 30px;
+align-self: flex-start;
+font-weight: bold;
+}
+.visa-image{
+  align-self: flex-end;
+  width: 100px;
+  height: 150px;
+  align-items: flex-end;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 200px 0px 0px 0px;
+}
+.form input{
+  height: 36px;
+  width: 274px;
+  margin: 10px;
+}
+.formulaire{
+  display: flex;
+  
+}
